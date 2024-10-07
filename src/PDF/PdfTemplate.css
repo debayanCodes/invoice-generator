@@ -1,0 +1,108 @@
+.container {
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .barcode {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .company-info {
+    text-align: right;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .print-and-add-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .print-button {
+    background-color: #325aa8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hed {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .icon-cross {
+    cursor: pointer;
+  }
+  
+  .forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .forms input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .buttons {
+    text-align: right;
+  }
+  
+  .buttons button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .discount-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; /* add some space between buttons */
+  }
+  
+  .discount-input label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .discount-input input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px; /* set a fixed width for the input field */
+  }
