@@ -12,7 +12,7 @@ function PdfTemplate(props) {
     const [Quantity, setQuantity] = useState(0);
     const [Price, setPrice] = useState(0);
     const [List, setList] = useState([]);
-    const [CustomerName, setCustomerName] = useState(props.customerName);
+    const [CustomerName] = useState(props.customerName);
     const [Discount, setDiscount] = useState(0);
 
     const addData = () => {
